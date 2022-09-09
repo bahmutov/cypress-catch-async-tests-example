@@ -1,3 +1,5 @@
+import 'cypress-catch-async-tests'
+
 it('sync callback', () => {
   cy.wrap(42).should('equal', 42)
 })
